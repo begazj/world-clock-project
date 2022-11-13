@@ -1,6 +1,57 @@
 body {
+  font-family: sans-serif;
+}
+h1,
+footer {
   text-align: center;
+}
+h1 {
+  font-family: sans-serif;
+}
+h2 {
+  margin: 0 0 5px;
+  font-size: 28px;
+}
+select {
+  display: block;
+  width: 100%;
+  border-radius: 4px;
+  padding: 10px;
+}
+footer {
+  color: rgba(0, 0, 0, 0.7);
 }
 a {
   text-decoration: none;
+}
+.container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 30px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background: white;
+  color: black;
+}
+.city {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+  padding: 30px 0;
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+}
+.city:last-child {
+  border: none;
+}
+.date {
+  opacity: 0.7;
+}
+.time {
+  font-size: 48px;
+}
+.time small {
+  font-size: 24px;
+  line-height: 36px;
+  vertical-align: middle;
 }
