@@ -17,6 +17,7 @@ select {
   width: 100%;
   border-radius: 4px;
   padding: 10px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
 footer {
   color: rgba(0, 0, 0, 0.7);
