@@ -34,8 +34,8 @@ a {
   margin-bottom: 20px;
   border-radius: 10px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  background: white;
-  color: #0032a1;
+  background: #ffffff;
+  color: #001244;
 }
 .city {
   display: flex;
@@ -52,7 +52,10 @@ a {
 }
 .city:hover {
   transform: scale(1.1);
-  color: #73001d;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding: 25px;
+  border-radius: 6px;
+  background: linear-gradient(#005086, #318fb5, #b0cac7, #f7d6bf);
 }
 .date {
   opacity: 0.7;

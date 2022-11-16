@@ -79,6 +79,7 @@ function updateCity(event) {
         <a href="/" class="homepage-link">Home</a>
         </div>`;
 }
-setInterval(updateCity, 1000);
+
 let citiesSelectElement = document.querySelector("#city");
 citiesSelectElement.addEventListener("change", updateCity);
+setInterval(updateCity, 1000);
